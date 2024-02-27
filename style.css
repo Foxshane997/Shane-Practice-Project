@@ -39,10 +39,30 @@ ul li {
     margin-left: -1em;
 }
 
-h1 {
-    border-top: solid lightgray;
-    padding-top: 5px;
+header {
+    margin-bottom: -1em;
 }
+
+h1 {
+    border-color: lightgray;
+    color: lightcoral;
+    border-top: solid lightslategray;
+    padding-top: 5px;
+    animation-name: h1-fade;
+    animation-duration: 3s;
+}
+
+@keyframes h1-fade {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 #port-img {
     display: flexbox;
@@ -59,3 +79,31 @@ h1 {
     margin: 10px 0px 10px 0px;
     height: 20em;
 }
+
+#header-logo {
+  animation-name: spin;
+  animation-duration: 6000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.main-container {
+    background-color: lightgray;
+    height: 10em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+p {
+    color: black;
+}
+
