@@ -85,3 +85,8 @@ footer {
     margin-bottom: 10px;
     height: 100vh;
 }
+
+.img-cont {
+    display: flex;
+    justify-content: space-evenly;
+}
