@@ -78,6 +78,9 @@ footer {
 
 /* End of Footer */
 
+
+/* Start of Main */
+
 .center-cont {
     background-color: lightskyblue;
     border: 2px solid;
@@ -90,3 +93,27 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
+
+.goals-cont {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    background-color: lightskyblue;
+    height: 700px;
+    margin: 10px 0px;
+    border-top: 2px solid lightseagreen;
+    border-bottom: 2px solid lightseagreen;
+}
+
+.goals-list-a{
+    border-top: 1px solid lightcyan;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.goals-list-b{
+    border-bottom: 1px solid lightcyan;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* End of Main */
