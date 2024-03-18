@@ -112,6 +112,11 @@ footer {
 }
 
 .goals-list-b{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.goals-list-c {
     border-bottom: 1px solid lightcyan;
     margin-top: 5px;
     margin-bottom: 5px;
